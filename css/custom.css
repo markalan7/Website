@@ -1,0 +1,148 @@
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.one-fourth.column              { width: 24%; }
+.three-fourths.column           { width: 72%; }
+
+.section {
+    border-top: 1px solid #eee;
+    padding: 4rem 0;
+    margin-bottom: 0;
+}
+
+.name {
+    padding: 4rem 0;
+    padding-top: 2rem;
+}
+
+.section-header {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.section-sub-header {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.blank-list {
+    list-style: none;
+}
+
+.blank-list > li {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.blank-link {
+    text-decoration: none;
+    color: #3399cc;
+}
+
+.blank-link:hover {
+    text-decoration: underline;
+}
+
+/* Navigation bar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.navbar {
+    position: fixed;
+    display: none;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    border-bottom: 1px solid #eee;
+    padding: 0;
+}
+
+.navbar-list {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.navbar-item {
+    position: relative;
+    float: left;
+    margin-bottom: 0;
+}
+
+.navbar-link {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 35px;
+    text-decoration: none;
+    line-height: 6.5rem;
+    color: #222;
+}
+
+.navbar-link:hover {
+    color: #3399cc;
+}
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+    .name {
+        border-top: 1px solid #fff;
+        padding: 4rem 0;
+        padding-top: 8rem;
+    }
+
+    .navbar {
+        display: block;
+    }
+}
+
+/* Button fill
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+.nav-button {
+  position: relative;
+  height: 4rem;
+  width: 8rem;
+  margin: 2rem;
+  padding: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #383736;
+  border: 1px #383736 solid;
+  vertical-align: middle;
+  border-radius: 4px;
+  text-transform: uppercase;
+  outline: 0;
+  overflow:hidden;
+  background: none;
+  z-index: 1;
+  cursor: pointer;
+  transition:         0.08s ease-in;
+  -o-transition:      0.08s ease-in;
+  -ms-transition:     0.08s ease-in;
+  -moz-transition:    0.08s ease-in;
+  -webkit-transition: 0.08s ease-in;
+}
+
+.fill:hover {
+    color: white;
+}
+
+.fill:before {
+  content: "";
+  position: absolute;
+  background: #99cc99;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  -webkit-transition: top 0.09s ease-in;
+}
+
+.fill:hover:before {
+  top: 0;
+}
+*/

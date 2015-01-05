@@ -1,0 +1,4 @@
+Site created by Mark Silvis.
+
+Special thanks to Dave Gamache for his excellent work on the Skeleton CSS boilerplate.
+http://getskeleton.com
