@@ -1,3 +1,4 @@
-Source code for my personal website.
+Source code for my _old_ personal website.
 
-http://pitt.edu/~mas450
+Was located at: http://pitt.edu/~mas450    
+Now redirects to current site: http://marksilvis.me
